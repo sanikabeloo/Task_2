@@ -1,0 +1,38 @@
+
+# Terraform working directory
+.terraform/
+
+# Terraform state files (may contain sensitive data)
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variable files (may contain secrets or personal IPs)
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+# Private SSH keys
+*.pem
+id_rsa
+id_rsa.pub
+*.key
+
+# Environment and local configuration
+.env
+.env.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# VS Code local settings (optional)
+.vscode/
